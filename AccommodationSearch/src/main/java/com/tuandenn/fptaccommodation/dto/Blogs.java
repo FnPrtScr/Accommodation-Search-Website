@@ -4,7 +4,6 @@
  */
 package com.tuandenn.fptaccommodation.dto;
 
-import java.io.Serializable;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -18,10 +17,12 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class Accommodation implements Serializable{
-    private int id;
+public class Blogs {
+    private String email;
     private String title;
-    private String author;
-    private int edition;
-    private int publishedYear;
+    private String content;
+    private String image;
+    private boolean status;
+    private String createAt;
+    private int cid;
 }
